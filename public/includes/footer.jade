@@ -1,0 +1,8 @@
+section.copy
+  p
+    | &copy; #{ new Date().getFullYear() }&nbsp;
+    a(href='//tlvince.com', title='Home')= locals.author
+  nav
+    ul
+      li: a(href='/about') about
+      li: a(href='/contact') contact

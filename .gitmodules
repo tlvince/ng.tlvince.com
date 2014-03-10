@@ -1,0 +1,6 @@
+[submodule "public/contents/assets"]
+	path = public/contents/assets
+	url = https://github.com/tlvince/tlvince-assets.git
+[submodule "public/contents/protips"]
+	path = public/contents/protips
+	url = https://github.com/tlvince/ng-protips.git

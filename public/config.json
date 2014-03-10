@@ -1,0 +1,31 @@
+{
+  "locals": {
+    "title": "ng",
+    "description": "AngularJS protips",
+    "author": "Tom Vincent",
+    "email": "ng@tlvince.com",
+    "url": "http://ng.tlvince.com",
+    "comment_email": "ng@tlvince.com"
+  },
+  "filenameTemplate": "/:title",
+  "defaultTemplate": "page.jade",
+  "plugins": [
+    "wintersmith-stylus"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr",
+    "identify": "identify",
+    "marked": "marked"
+  },
+  "stylus": {
+    "compress": true,
+    "include css": true
+  },
+  "ignore": [
+    "assets/README.mkdown",
+    "assets/styles/vendor",
+    "journal/README.mkdown"
+  ]
+}
